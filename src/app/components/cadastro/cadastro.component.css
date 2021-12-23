@@ -1,0 +1,49 @@
+.container-login{
+
+  height: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+}
+
+.logo-app{
+  margin-bottom: 10%;
+}
+
+.btn-submit{
+  width: 100%;
+  height: 50px;
+  background-color: blue;
+  border-radius: 12px;
+  font-size: 16px;
+  border: none;
+  margin-top: -30px;
+}
+
+
+.app-input{
+  border-width: 0;
+  border-bottom: 1px solid black;
+  margin-bottom: 50%;
+  outline: none;
+  font-size: medium;
+}
+
+.input-email{
+  margin-bottom: 18px;
+}
+
+.input-email{
+  margin-bottom: 20px;
+}
+
+.text-danger{
+  font-size: medium;
+}
+
+
+

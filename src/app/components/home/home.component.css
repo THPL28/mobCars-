@@ -1,0 +1,13 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-size: cover;
+  }
+  .espaco{
+    padding-bottom: 20px;
+  }
+   mat-card{
+     margin-top: 15px;
+   }

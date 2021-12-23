@@ -1,0 +1,69 @@
+<div class="container">
+
+    <div class="card" style="width: 24rem; ">
+        <img src="{{ cars[indice].foto }}" class="card-img-top">
+        <div class="card-body">
+        </div>
+        <h4><b>Especificações Técnicas:</b></h4>
+        <table class="table align-middle table-sm table-secondary table-bordered border-dark">
+            <tbody>
+                <tr>
+                    <th scope="row">Motor:</th>
+                    <td>{{ cars[indice].descricao }}</td>
+                    <th scope="row">Torque:</th>
+                    <td> {{ cars[indice].descricao1 }}</td>
+                    <th scope="row">Velocidade Máxima:</th>
+                    <td> {{ cars[indice].descricao2 }}</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Tração:</th>
+                    <td>{{ cars[indice].tracao }}</td>
+                    <th scope="row">Câmbio:</th>
+                    <td> {{ cars[indice].cambio }}</td>
+                    <th scope="row">0 aos 100 km/h:</th>
+                    <td> {{ cars[indice].zeroAcem }}</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Carroceria:</th>
+                    <td>{{ cars[indice].carroceria }}</td>
+                    <th scope="row">N° Portas:</th>
+                    <td> {{ cars[indice].portas }}</td>
+                    <th scope="row">Peso:</th>
+                    <td> {{ cars[indice].peso }}</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <a href="#" class="btn btn-success" routerLink="/comprar">Confirmar</a>
+    <a href="#" class="btn btn-danger" routerLink="4444">Favoritar</a>
+    <div class="card text-center">
+        <div class="card-header">
+            <h3><b>Developers</b></h3>
+        </div>
+        <div class="card-body row">
+            <h5 class="card-title">Dream Team</h5>
+            <div class="row card-text">
+                <div class="col">
+                    <b>Anderson Morais</b>
+                </div>
+                <div class="col">
+                    <b>João Feiteira</b>
+                </div>
+                <div class="col">
+                    <b>Tiago Looze</b>
+                </div>
+                <div class="col pb-3">
+                    <b>Reginaldo Dias</b>
+                </div>
+            </div>
+            <a href="#" class="btn btn-primary" routerLink="/home">Voltar</a>
+        </div>
+        <div class="card-footer text-muted">
+            V 1.0
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,26 @@
+<div class="container-login">
+  <img class="logo-app" src="assets/img/login.jpg" alt="Logo aplicativo">
+  <form [formGroup]="form" (submit)="submit()">
+    <p class="text-danger text-center" *ngIf="msgErro">{{msgErro}}</p>
+
+    <div class="input-container">
+      <img src="assets/img/user.png" alt="Usuario">
+      <input type="email" class="app-input input-email" placeholder="Informe seu e-mail" formControlName="login">
+    </div>
+
+    <div class="input-container">
+      <img src="assets/img/key.png" alt="senha">
+      <input type="password" class="app-input input-senha" placeholder="Senha" formControlName="senha">
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <button type="submit" class="btn-submit btn btn-primary" routerLink="/home">Entrar</button>
+      </div>
+      <div class="col">
+        <a href="" routerLink="cadastro"><h3>Cadastrar</h3></a>
+      </div>
+    </div>
+
+  </form>
+</div>
